@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Simple Weather App</string>
+    <string name="current_location">Current Location</string>
+    <string name="nis">Nis</string>
+    <string name="belgrade">Belgrade</string>
+    <string name="max_temp">Max temp:</string>
+    <string name="min_temp">Min temp:</string>
+    <string name="humidity">Humidity:</string>
+    <string-array name="days_of_week">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+</resources>

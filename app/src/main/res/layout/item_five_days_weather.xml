@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/forecast_layout"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:id="@+id/weather_icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@id/day_of_week"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:layout_toEndOf="@id/day_of_week" />
+    <TextView
+        android:textColor="@android:color/white"
+        android:id="@+id/min_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23"
+        android:padding="10sp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:textColor="@android:color/white"
+        android:id="@+id/max_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50"
+        android:padding="10sp"
+        android:layout_toLeftOf="@+id/min_temperature"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/min_temperature" />
+    <TextView
+        android:textColor="@android:color/white"
+        android:id="@+id/day_of_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10sp"
+        android:layout_centerVertical="true"
+        android:text="Sunday"/>
+</RelativeLayout>

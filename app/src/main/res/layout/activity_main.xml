@@ -14,29 +14,41 @@
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <Button
             android:id="@+id/current_location"
-            android:text="@string/current_location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:layout_weight="1"
-            android:layout_margin="5dp"/>
+            android:text="@string/current_location"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@android:color/black" />
+
         <Button
             android:id="@+id/nis"
-            android:text="@string/nis"
-            android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginLeft="1dp"
             android:layout_marginRight="1dp"
-            android:layout_marginLeft="1dp"/>
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_dark"
+            android:text="@string/nis"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black" />
+
         <Button
             android:id="@+id/belgrade"
-            android:text="@string/belgrade"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:layout_weight="1"
-            android:layout_margin="5dp"/>
+            android:background="@android:color/holo_green_dark"
+            android:text="@string/belgrade"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black" />
     </LinearLayout>
 
 

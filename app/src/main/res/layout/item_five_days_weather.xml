@@ -3,7 +3,7 @@
     android:orientation="horizontal" android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:id="@+id/forecast_layout"
-    android:background="@color/colorPrimaryDark">
+    android:background="@android:color/holo_blue_light">
 
     <ImageView
         android:id="@+id/weather_icon"
